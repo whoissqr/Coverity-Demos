@@ -2,7 +2,7 @@
 !!!clear
 
 cat src/main/java/HelloWorld.java
-cat build.xml
+cat pom.xml
 cov-build%%% --dir=coverity%%% mvn clean compile
 cov-analyze%%% --dir=coverity
 cov-commit-defects%%% --dir=coverity%%% --host=localhost --user=demo --password=coverity --stream=demo
