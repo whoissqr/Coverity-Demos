@@ -1,0 +1,7 @@
+# In theory, this should install everything you need to run
+# these demonstrations on a Debian-based machine. YMMV.
+
+sudo apt-get update
+sudo apt-get install -y perl ant maven gradle make gcc cpanminus
+sudo cpanm App::Cleo
+
