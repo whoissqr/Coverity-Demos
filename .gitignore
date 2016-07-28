@@ -1,0 +1,5 @@
+coverity
+build
+.gradle
+*.class
+*.o
