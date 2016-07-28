@@ -2,7 +2,7 @@
 
 This repository contains minimal projects that utilize various build systems (e.g. make, ant, maven, gradle). Each has a single "HelloWorld" source file and a build configuration that will compile and clean the project.
 
-Each project also has a script that produces semi-automated demonstration of how Coverity integrates with each of these build systems. This allows you to demonstrate the build/analyze/commit cycle using the toolchain that your prospect is most familiar with.
+Each project also has a script that produces semi-automated demonstration of how Coverity integrates with each of these build systems. This allows you to demonstrate the build/analyze/commit cycle using the toolchain that your audience is most familiar with.
 
 ## Prerequisites
 
