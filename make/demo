@@ -5,4 +5,4 @@ cat src/HelloWorld.c
 cat Makefile
 cov-build%%% --dir=coverity%%% make clean compile
 cov-analyze%%% --dir=coverity
-cov-commit-defects%%% --dir=coverity%%% --host=localhost --user=admin --password=coverity --stream=demo
+cov-commit-defects%%% --dir=coverity%%% --host=localhost --user=demo --password=coverity --stream=demo

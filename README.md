@@ -15,7 +15,7 @@ curl -sL cpanmin.us | sudo perl - App::Cleo
 wget -qO - cpanmin.us | sudo perl - App::Cleo
 ```
 
-Lastly, each demonstration concludes by committing the results to a Coverity stream named "demo" on the localhost. Therefore, you'll need to be running a Coverity server and have a "demo" stream set up. It will also need an `admin` account with `coverity` as the password.
+Lastly, each demonstration concludes by committing the results to a Coverity stream named "demo" on the localhost. Therefore, you'll need to be running a Coverity server and have a "demo" stream set up. It will also need an `demo` account with `coverity` as the password.
 
 ## Usage
 
