@@ -21,5 +21,5 @@ Lastly, each demonstration concludes by committing the results to a Coverity str
 
 To start a demonstration, open a terminal and navigate to the directory that contains the appropriate project for your needs. Then give this command: `cleo demo`. Once the demonstration has started, press space to step through the commands. Some commands are broken into chunks and the demonstration pauses so you can explain that part of the command.  Whenever the demonstration pauses, press space to continue.
 
-Each demo is roughly the same: show the source; show the builder; run the cov commands.  But you can add commands as appropriate for your situation. You can also customize the playback in several differnt ways. Say `man cleo` for more information on that.
+Each demo is roughly the same: show the source; show the builder; run the cov commands.  But you can add commands as appropriate for your situation. You can also customize the playback in several differnt ways. Say `man cleo` or refer to the [online documentation](https://metacpan.org/pod/distribution/App-Cleo/bin/cleo) for more information on that.
 
