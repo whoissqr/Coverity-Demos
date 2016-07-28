@@ -6,7 +6,9 @@ Each project also has a script that produces semi-automated demonstration of how
 
 ## Prerequisites
 
-Although the commands used during the demonstration are recorded, the playback is live. Therefore, you must actually have the toolchain installed for each of the build systems. For example, you'll need to install a JDK and Maven to run the mvn demonstration. How you install the toolchain is up to you. **NOTE:** the main executable binaries for the toolchain must be located in your PATH. 
+Although the commands used during the demonstration are recorded, the playback is live. Therefore, you must actually have the toolchain installed for each of the build systems. For example, you'll need to install a JDK and Maven to run the mvn demonstration. How you install the toolchain is up to you.
+
+**NOTE:** the main executable binaries for the toolchain must be located in your PATH. 
 
 You'll also need to install [Cleo](https://metacpan.org/pod/App::Cleo), which is a simple utility for interactively executing a sequence of pre-recorded commands. Cleo can be installed with either of these commands:
 
@@ -14,6 +16,8 @@ You'll also need to install [Cleo](https://metacpan.org/pod/App::Cleo), which is
 curl -sL cpanmin.us | sudo perl - App::Cleo
 wget -qO - cpanmin.us | sudo perl - App::Cleo
 ```
+
+**NOTE:** The `etc/` directory contains a bootstrap script that should install the prerequisites (besides Coverity) on a Debian-based system.
 
 Lastly, each demonstration concludes by committing the analysis results to a Coverity stream on the localhost. Therefore, you'll need to be running a Coverity server and have a stream named `demo` set up. It will also need an account named `demo` with `coverity` as the password.
 
